@@ -1,4 +1,4 @@
-package com.pablogj0397.app.features.tren.domain;
+package main.com.pablogj0397.app.features.tren.domain;
 
 public class SaveTrainUseCase {
     private TrainRepository trainRepository;
@@ -7,7 +7,7 @@ public class SaveTrainUseCase {
         this.trainRepository = trainRepository;
     }
 
-    public void SaveTrain(Train train){
+    public void execute(main.com.pablogj0397.app.features.tren.domain.Train train){
         trainRepository.saveTrain(train);
     }
 }

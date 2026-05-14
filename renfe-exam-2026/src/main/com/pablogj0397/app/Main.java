@@ -1,7 +1,7 @@
-package main.com.pablogj0397.app.features;
+package main.com.pablogj0397.app;
 
-import com.pablogj0397.app.features.tren.domain.Train;
-import com.pablogj0397.app.features.tren.presentation.TrainView;
+import main.com.pablogj0397.app.features.tren.domain.Train;
+import main.com.pablogj0397.app.features.tren.presentation.TrainView;
 
 public class Main {
     static void main(String[] args) {
