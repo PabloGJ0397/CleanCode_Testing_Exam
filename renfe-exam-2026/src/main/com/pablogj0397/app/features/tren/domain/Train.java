@@ -1,4 +1,4 @@
-package java.com.pablogj0397.app.features.tren.domain; //cambiar por la ruta correcta
+package com.pablogj0397.app.features.tren.domain; //cambiar por la ruta correcta
 
 public class Train {
     private String id;

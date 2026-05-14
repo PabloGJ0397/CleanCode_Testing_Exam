@@ -1,6 +1,6 @@
-package java.com.pablogj0397.app.features.tren.data; //cambiar por la ruta correcta
+package com.pablogj0397.app.features.tren.data; //cambiar por la ruta correcta
 
-import java.com.pablogj0397.app.features.tren.domain.Train;
+import com.pablogj0397.app.features.tren.domain.Train;
 import java.util.ArrayList;
 import java.util.Objects;
 
