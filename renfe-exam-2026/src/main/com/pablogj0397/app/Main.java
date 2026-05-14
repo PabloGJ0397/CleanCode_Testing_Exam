@@ -19,6 +19,9 @@ public class Main {
         TrainView.deleteTrain(id);
 
 
+        //MAain isn´t working cause some fail in Main.java directory
+
+
     }
 
 }
