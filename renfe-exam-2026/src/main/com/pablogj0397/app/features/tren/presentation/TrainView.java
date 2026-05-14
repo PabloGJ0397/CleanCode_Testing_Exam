@@ -22,10 +22,9 @@ public class TrainView {
         System.out.println("Successfull entity insert: ");
         printAll();
     }
-    public static void deleteTrain(){
+    public static void deleteTrain(String id){
         DeleteTrainUseCase deleteTrainUseCase = new DeleteTrainUseCase(new TrainDataRepository(new TrainMemLocalDataSource().getInstance()));
-        String id = "MD5-001";
-        deleteTrainUseCase.execute();
+        deleteTrainUseCase.execute(id);
 
     }
 

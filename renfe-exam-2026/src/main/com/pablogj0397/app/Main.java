@@ -13,7 +13,10 @@ public class Main {
         //Feature 2: PrintAll
         TrainView.printAll();
 
-
+        //Feature 3: Delete Train and show changes
+        TrainView.printAll();
+        String id = "MD5-001";
+        TrainView.deleteTrain(id);
 
 
     }
