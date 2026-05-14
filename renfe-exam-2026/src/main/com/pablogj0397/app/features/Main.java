@@ -5,7 +5,7 @@ import com.pablogj0397.app.features.tren.presentation.TrainView;
 
 public class Main {
     static void main(String[] args) {
-        //Feature 1: SaveTrain
+        //Feature 1: SaveTrain and show changes
         TrainView.printAll();
         TrainView.saveTrain(new Train("MD5-001","630", "111A","Avlo","AVE"));
         TrainView.printAll();
